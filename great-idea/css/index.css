@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +64,160 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+* {
+	border:2px solid black;
+}
+hr {
+	border:1px solid black;
+}
+/* Navbar */
+body{
+	margin: 0% 7%;
+}
+nav {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	width:100%;
+	height:5rem;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+.logo {
+} 
+/* Top */
+.top {
+	padding: 4% 3%;
+	margin: 6% 0px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 10%;
+}
+.top div {
+	font-size: 80px;
+	text-align: center;
+	position: relative;
+	right: 23%;
+	margin-top: 60px;
+}
+.top h1 {
+	font-size:4rem;
+	text-align:center;
+}
+.top button {
+	border: 1px solid black;
+	width: 17%;
+	height:1.5rem;
+	color: grey;
+	background-color: white;
+	position: absolute;
+	left: 42%;
+}
+.top img {
+	width:40%;
+	position: absolute;
+	bottom: -6%;
+	left: 55%;
+}
+/* Middle */
+.mid {
+	display:flex;
+}
+.info {
+	width: 48%;
+	margin: 4% 7px;
+}
+/* Image */
+.middle-img {
+	width: 100%;
+}
+/* Bottom */
+.bottom {
+	display: flex;
+	position: relative;
+}
+.info2 {
+	width: 32%;
+	display: flex;
+	flex-direction:column;
+	margin: 4% 4px;
+}
+/* Footer */
+footer {
+	display: flex;
+	flex-direction:column;
+	position: relative;
+	width: 100%;
+	margin: 3% 0;
+}
+p {
+	margin-bottom:1rem;
+}
+.copyright {
+	text-align:center;
+}
+.services-header-img {
+	width:100%;
+}
+#service {
+	margin: 2rem 0;
+}
+#service h2 {
+	font-size:1.5rem;
+}
+#stackBoxes {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.box {
+	padding: 1rem;
+	margin: 1rem 0;
+	width:48%;
+	display:flex;
+	flex-direction:column;
+	background-color: lightgrey;
+	border:2px solid black;
+}
+.learn {
+	width:8rem;
+	height:2rem;
+	border-radius:8px;
+}
+#bottomFlex {
+	display:flex;
+	margin-bottom:5rem;
+}
+#facts {
+	width:50%;
+	padding-top:2rem;
+	padding-right:2rem;
+}
+.services-info-img {
+	padding-top:2rem;
+}
+li {
+	line-height:2;
+}
+.copyright {
+	list-style-type:circle;
+	padding-bottom:1rem;
+}
